@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Product4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+ 
+    <link rel="stylesheet" href="css/28_Johnson.css" type="text/css">
+    
+    <style>
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+    
+    
+</head>
+
+<body>
+   <header>
+    
+    <div class="banner"></div> 
+    <div class="slider">
+        
+    <img src="Images/Image1.jpg" alt="Cover img" id="slideImg">
+    
+               
+    </div>
+    <div class="overlay">
+           
+    <div class="navbar">
+    <div class="logo">
+             
+    <div class="header" style="clear:both;">
+    <ul>   
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Contact_us.html">Contact Us</a></li>
+    <ul class="dropdown">
+    <li class="dropbtn">Items</li>
+    <ul class="dropdown-content">
+    <li><a href="Product.html">Watches</a></li>
+    <li><a href="Product1.html">Candles</a></li>
+    <li><a href="Product2.html">Incense</a></li>
+    <li><a href="Product3.html">Shoes</a></li>
+    <li><a href="Product4.html">Perfume</a></li>
+    <li><a href="Product5.html">Figurines</a></li>
+    </ul>
+    </ul>
+    <ul class="dropdown">
+    <li class="dropbtn">Reviews</li>
+    <div class="dropdown-content">
+    <li><a href="Review_page1.html">Review1</a></li>
+    <li><a href="Review_page2.html">Review2</a></li>
+    <li><a href="Review_page3.html">Review3</a></li>
+    </div>
+    </ul>
+           
+    <ul class="dropdown">
+    <li class="dropbtn">Forms</li>
+    <ul class="dropdown-content">
+    <li><a href="login.html">Login</a></li>
+    <li><a href="form.html">Checkout</a></li>
+        
+    </ul>
+    </ul>
+    </ul>
+       
+    </div>
+    <div class="container">
+    <a href="index.html">
+              
+    <img src="images/Slonne_&_Surr_MD_copy.png" alt="Logo">
+    </a>  
+                
+    <br><br><br><br>  <br> <br><br><br><br>
+    <br><br>
+              
+    </div>
+              
+   
+    </div>
+    <div class="navbar1">
+    <div class="menu-icons" style="clear:both;">
+    <a href="login.html">
+    <img src="images/icon_user_white.png" alt="User-Login">
+    </a>
+    <a href="index.html">
+    <img src="images/home-icon-hi.png" alt="Home">
+    </a>
+    </div>
+    </div>
+            
+     
+         
+    </div>
+    </div>
+    </header>
+    
+    <div id="magazine">
+    <h1 class="textCtr1">Perfume</h1>
+    <br>
+    <div id="magazineContainer">
+        
+    <div class="content1">
+    <div class="container1">
+    <img src="images/SLONNE_&_SLURR_MD.png"  width="250" height="800" alt="Banner">
+    </div>
+    </div>
+        
+    <div class="content2">
+    <div class="container2">
+    <div class="flip-card">
+    <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="images/perfume1.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+    <h1>Burberry Perfume</h1> 
+    <p>Sold Out</p> 
+    <p>Sorry for the inconvienience caused.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+        
+    <div class="content2">
+    <div class="container2">
+    <div class="flip-card">
+    <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="images/perfume2.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+    <h1>Perfumela</h1> 
+    <p>Sold Out</p> 
+    <p>Sorry for the inconvience caused.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+        
+    <div class="content2">
+    <div class="container2">
+    <div class="flip-card">
+    <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="images/perfume3.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+    <h1>Chanel Perfume</h1> 
+    <p>Sold Out.</p> 
+    <p>Sorry for the inconvinience caused.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+         
+    </div>
+    </div>
+    <br>
+    <br>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-f366fbe8-9890-40e1-be53-d72b08923380"></div>
+    
+    <footer style="clear: both;">
+    <div class="footer">
+    <div class="center">
+    <h2>WHAT MAKES US DIFFERENT?</h2><br>
+        
+    <p>We are passionate about culture and travel being a inspiration behind<br> our
+    beautifully scented candles/incense.</p><br>
+        
+    <p>Incense has been used in various traditons.<br></p><br>
+        
+        
+    <p>Finally,like many others, you would enjoy a rich tradition with the<br>
+    combination of unique and aromatic scents of incense.
+    </p><br>
+        
+        
+    <p>©Your local incense store </p>
+    </div> 
+    </div>
+          
+         
+    </footer>
+    
+    
+    </body>
+</html>

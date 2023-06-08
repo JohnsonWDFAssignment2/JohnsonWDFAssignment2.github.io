@@ -2,6 +2,8 @@ body {
     font-family: Arial;
     font-size: 17px;
     padding: 8px;
+    background-color: rgb(16,30,73);
+    color: black;
 }
 h2{
     text-align:left;
@@ -44,11 +46,9 @@ h2{
 }
 
 .container {
-    background-color: #FFFFFF;
+    background-color: whitesmoke;
     padding: 3px 18px 13px 18px;
-    border: 1px solid lightgrey;
     border-radius: 3px;
-    box-shadow: 0 0 2rem 0 rgba(168, 180, 194, 0.37);
 }
 
 
@@ -72,7 +72,7 @@ label {
 }
 
 .btn {
-    background-color: #01BAEF;
+    background-color: darkblue;
     color: white;
     padding: 12px;
     margin: 10px 0;
@@ -86,11 +86,12 @@ label {
 }
 
 .btn:hover {
-    background-color: #0CBABA;
+    background-color: #2196F3;
 }
 
 a {
-    color: #2196F3;
+    text-decoration: none;
+    color:black;
 }
 
 hr {

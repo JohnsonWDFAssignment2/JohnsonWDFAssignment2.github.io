@@ -57,15 +57,11 @@ body {
     
 }
 
-
-
 #navigation{ border:3px; background-color:#ffffff; width:100%;}
 #navigation ul { list-style:none; overflow:hidden; }
 #navigation li{ float:left; text-align:center; }
 #navigation a {text-decoration:none; display:block; width: 200px; padding: 12px;}
 #navigation a:hover{color:#DBEC1C;}
-
-
 
 .navbar{
     width:85%;
@@ -89,38 +85,20 @@ body {
 
 .menu-icons{
   
-    flex:1;
+    
     align-items: center;
     text-align:right;
-   
+    display:inline-block;
 }
-
-.menu-icons img{
-    
-    width:20px;
-    margin-left:40px;
-  
-    
-    cursor:pointer;
-    }
-*{
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
-}
-
 
 .content{
-position: relative;
+    position: relative;
     margin: auto;
     overflow: hidden;
     width: 540px;
 }
 .content img{
- max-width: 100%;
+    max-width: 100%;
     transition: all 0.3s;
     display: block;
     width: 100%;
@@ -174,29 +152,24 @@ position: relative;
     float:left;
     padding-left:10px;
     padding-right:10px;
- width:33%;
+    width:33%;
 }
 
 #magazine .content1{
     float:left;
     padding-left:5px;
     padding-right:5px;
- width:7%;
+    width:7%;
     margin-left:-340px;
     margin-top:-120px;
 
 }
-
-
-
 
 #magazineContainer{
     width:99%;
     margin-left:5px;
     margin-right:5px;
 }
-
-
 
 .center{
     
@@ -212,7 +185,7 @@ position: relative;
    border:2px solid #000;
    text-transform:uppercase;
    padding:12px 20px;
- text-decoration:none;
+  text-decoration:none;
 }
 
 
@@ -285,17 +258,17 @@ position: relative;
               color:white;
               font-size: 16px;
               padding: 12px 20px;
-             cursor: pointer;
+              cursor: pointer;
               border-radius: 5px;
               text-align: center;
-               background:none;
-               border:2px solid #fff;
-               text-transform:uppercase;
-                min-width:200px;
-                margin-top:180px;
-                margin-right:220px;
-                margin-left:220px;
-                margin-bottom:180px;
+              background:none;
+              border:2px solid #fff;
+              text-transform:uppercase;
+              min-width:200px;
+              margin-top:180px;
+              margin-right:220px;
+              margin-left:220px;
+              margin-bottom:180px;
                 
     }
                     .btn{
@@ -449,7 +422,7 @@ position: relative;
     }
         
     
-    .dropbtn{
+.dropbtn{
         
         background-color:#211b4385;
     }
@@ -480,17 +453,5 @@ position: relative;
 }
 
 .card button:hover {
-  opacity: 0.7;
- 
-        
+  opacity: 0.7; 
     }
-
-
-
-
-
-
-
-
-
-  
